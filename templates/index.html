@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India News Latest Hour</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+
+        <h1 id="website_title">What happened in India in last one hour?</h1>
+        <!-- <h1 id="website_title">What happened in India in last one hour? 🇮🇳</h1> -->
+        
+        <div id="input-form">
+            <div>
+                <button id="fetch-news-button">Fetch News</button>
+            </div>
+            <div>
+                <a href="/credentials">Change Language Model</a>
+            </div>
+            <div id="summary-type-input-container">
+                <span id="summary-in">Summaries in:</span>
+                <select name="Summary Type" id="summary-type-input">
+                    <option value="one paragraph">one paragraph</option>
+                    <option value="one sentence">one sentence</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="token-info" id="tokenInfo">
+            <span>Input Tokens: 0</span>
+            <span style="font-size: 24px;">|</span>
+            <span>Output Tokens: 0</span>
+        </div>
+
+        <div id="copy-all-button-container" style="display: none;">
+            <button id="copy-all-button">Copy All</button>
+        </div>
+        
+        <div class="results" id="results"></div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
