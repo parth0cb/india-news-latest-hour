@@ -55,7 +55,7 @@ def lookback_news_from_india(
             base_url = base_url,
         )
 
-        prompt = f"Summarize the following news article in {summary_type}. Sumarize the information in the article without mentioning the article itself. Also, do not mention date unless the news is date specific.\n\nNews article:\n\n{full_text}\n\n---\nSummary:"
+        prompt = f"Sumarize article in {summary_type} without mentioning the article. Also, do not mention date unless the news is date specific.\n\nNews article:\n\n{full_text}\n\n---\nSummary:"
 
         try:
             response = client.chat.completions.create(

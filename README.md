@@ -9,6 +9,8 @@ This project scrapes news from India which were uploaded in last one hour.
   Your browser does not support the video tag.
 </video>
 
+"Copy All" button is added in current version. Which is not in the video.
+
 ### Installation guide
 
 1. Install requirements (one time)
