@@ -4,10 +4,7 @@ This project scrapes news from India which were uploaded in last one hour.
 
 ### Demo
 
-<video width="600" controls>
-  <source src="static/media/demo-Hourly-News-from-India.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/70a8deea-5a08-4a21-b3d6-90761dfcaf37
 
 "Copy All" button is added in current version. Which is not in the video.
 
